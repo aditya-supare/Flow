@@ -9,7 +9,7 @@ import { X } from 'lucide-react'
 type Props = {
   userImage: string | null
   onDelete?: any
-  onUpload: any
+  onUpload: (e: string) => any
 }
 
 const ProfilePicture = ({ userImage, onDelete, onUpload }: Props) => {
